@@ -1,0 +1,121 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,700&display=swap&subset=cyrillic-ext);
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.woff2') format('woff2'), url('../fonts/Gilroy-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Bold.woff2') format('woff2'), url('../fonts/Gilroy-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+
+body {
+	font-family: Gilroy, sans-serif;
+	line-height: 1;
+	color: #8a2be2;
+}
+
+/* ------------------------------ */
+
+span {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: oblique;
+	color: #a52a2a;
+}
+
+p {
+	font-family: Poppins, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: oblique;
+	color: #0000ff;
+}
+
+div {
+	text-align: center;
+	line-height: 25px;
+}
+
+/* img {
+	text-align: center;
+} */
+
+.test {
+	text-align: justify;
+	font-size: 25px;
+	color: #a52a2a;
+	text-decoration: line-through black;
+}
+
+.shadow {
+	text-shadow: 10px 10px 7px goldenrod;
+	font-size: 50px;
+	color: #4d0909;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	font-family: Poppins, sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.space {
+	word-spacing: 50px;
+}
